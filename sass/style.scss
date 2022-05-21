@@ -1,0 +1,284 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3em;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+}
+h2{
+    font-size: 1.25em;
+    color: red;
+    text-align: center;
+}
+
+.imagenIcono{
+    width: 70px;
+    display: inline;
+}
+header{
+
+    background-color: lightcoral;
+    width: auto;
+    align-items: center;
+    top: 0;
+    position: sticky;
+}
+
+/* INDEX */
+.imagenBebidas{
+    width: 100%;
+}
+.nav-menu{
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;  
+}
+.nav-item{
+    list-style: none;
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: red;
+}
+.nav-item a:hover{
+    background-color: black;
+    color: white;
+}
+
+.presentacion{
+   font-size: 1em;
+   color: white;
+   background-color: black;
+   padding: 20px;
+   margin: 30px;
+   border: solid 5px blueviolet;
+}
+
+
+footer{
+    position: fixed;
+
+}
+/*------BEBIDAS-ALCOHOLICAS------- */
+
+.bebidasAlcoholicas{
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+.cervezas{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.vinos{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.champagne{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.whiskies{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.aperitivos{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/*------BEBIDAS-Y-SNACKS------- */
+
+
+
+.gaseosas{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+.snacks{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+.jugos{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+.otrasCosas{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+
+ /* Contacto */
+.contacto{
+    color: blue;
+    text-align: center;
+    font-size: 1.23em;
+}
+
+.formulario{
+    font-size: 1em;
+    width: 400px 300px;
+    text-align: start;
+    background-color: lightcoral;
+}
+
+@media screen and (min-width:480px) and (max-width:1024px) {
+
+
+    /*------BEBIDAS-ALCOHOLICAS------- */
+    
+    .cervezas{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .vinos{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .champagne{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .whiskies{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aperitivos{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /*------BEBIDAS-Y-SNACKS------- */
+
+    
+    
+
+}
+
+@media screen and (min-width:0px) and (max-width:480px) {
+    
+    .cervezas{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .vinos{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .champagne{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .whiskies{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .aperitivos{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr);
+        column-gap: 70px;
+        row-gap: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}
