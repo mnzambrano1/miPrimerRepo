@@ -6,13 +6,13 @@
 
 h1 {
   font-size: 3em;
-  color: red;
+  color: violet;
   text-align: center;
   text-decoration: none; }
 
 h2 {
   font-size: 1.25em;
-  color: red;
+  color: #901194;
   text-align: center; }
 
 .imagenIcono {
@@ -20,7 +20,7 @@ h2 {
   display: inline; }
 
 header {
-  background-color: lightcoral;
+  background-color: black;
   width: auto;
   align-items: center;
   top: 0;
@@ -30,24 +30,6 @@ header {
 .imagenBebidas {
   width: 100%; }
 
-.nav-menu {
-  margin: 20px;
-  display: flex;
-  text-align: center;
-  justify-content: space-between; }
-
-.nav-item {
-  list-style: none; }
-
-.nav-item a {
-  text-decoration: none;
-  font-size: 1.5em;
-  color: red; }
-
-.nav-item a:hover {
-  background-color: black;
-  color: white; }
-
 .presentacion {
   font-size: 1em;
   color: white;
@@ -56,8 +38,23 @@ header {
   margin: 30px;
   border: solid 5px blueviolet; }
 
+.navbar {
+  top: 0;
+  width: 100%; }
+  .navbar a {
+    text-decoration: none;
+    color: white; }
+  .navbar a:hover {
+    background-color: rgba(232, 23, 240, 0.966);
+    color: white; }
+
 footer {
   position: fixed; }
+
+/*------TRAGOS------- */
+P {
+  text-align: center;
+  color: violet; }
 
 /*------BEBIDAS-ALCOHOLICAS------- */
 .bebidasAlcoholicas {
